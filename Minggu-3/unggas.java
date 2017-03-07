@@ -1,3 +1,7 @@
+/*
+  NIM  : 10115088
+  Nama : Fajar Abdi Nugraha
+*/
 class unggas {
 	public String jenisBurung, jenisMakanan;
 	public char   jenisKelamin;
