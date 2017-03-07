@@ -1,3 +1,7 @@
+/*
+  NIM  : 10115088
+  Nama : Fajar Abdi Nugraha
+*/
 class unggasUtama {
 	public static void main(String[] args) {
 		unggas Elang = new unggas();
