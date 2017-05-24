@@ -1,0 +1,1 @@
+alasan membuat tagging interface adalah agar suatu interface lebih spesifik dalam fungsinya sehingga tidak membingungkan pengembang dan keterbatasan penggunaan interface. keterbatasannya adalah interface hanya bisa dilakukan di kelas kongkrit dan semua metodenya harus di override tidak bisa sebagian(sangat mungkin terjadi kasus sepert ini).
