@@ -4,7 +4,7 @@ package Perpustakaan;
  * NIM	 : 10115088
  * Nama  : Fajar Abdi Nugraha
  * Kelas : ProLan - 12
- * Tugas : Generic class
+ * Tugas : Package
  */
 
 import java.util.Scanner;
