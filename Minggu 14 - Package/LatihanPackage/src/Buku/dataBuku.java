@@ -4,7 +4,7 @@ package Buku;
  * NIM	 : 10115088
  * Nama  : Fajar Abdi Nugraha
  * Kelas : ProLan - 12
- * Tugas : Generic class
+ * Tugas : Package
  */
 
 public class dataBuku<T, N> {
