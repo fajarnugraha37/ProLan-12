@@ -1,0 +1,157 @@
+NIM		: 10115088
+Nama	: Fajar Abdi Nugraha
+Kelas	: ProLan-12
+
+ctt : jangan di wordwarp
+
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+| Pertemuan	| Materi	| Penjelasan												| Folder gitHub |
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	I   | Pendahuluan	| - Menjelaskan aturan perkuliahan 									| Minggu-1	|
+|	    |			| - Pengenalan Bahasa Java sejarah penemu dan struktur java						|               |
+|	    |			| - instalasi java(mengisntall JDK)									|		|
+|	    |			| - menulis program java dengan output "Hello World" menggunakan System.out.println			|		|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	II  | Konsep OOP	| - Membahas mengenai pengertian OOP, bahwa OOP adalah paradigma/ cara berfikir/ cara memandang suatu	| Minggu-2	|
+|	    |			|   persoala/ kasus menjadi sebuah objek dimana objek tersebut memiliki method dan attribut.		|		|
+|	    |		 	| - Membandingkan istilah-istilah di prosedural dan OOP : 						|		|
+|	|			|   Type dengan class, variabel dengan objek, lokal & global dengan public, private & protected		|		|
+|	| 			| - paradigma dalam OOP meliputi :									|		|
+|	|			|	 OO analysis											|		|
+|	|			|	 OO Design											|		|
+|	|			|	 OO Programming																						|				|
+|	|			|	 OO Testing																							|				|
+|	|			| - Membahas mengenai Input dan output :																|				|
+|	|			|	 Perbedaan antara print dan println(setelah output di cetak kursor akan pindah kebawah)				|				|
+|	|			|	 Penggunaan kelas Scanner dg alokasi new : Scanner nama_scanner = new Scanner(System.in);			|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	III | Kelas dan Objek	| - pengertian kelas, kelas adalah kumpulan dari data yang disebut attribut dan operasi yang disebut 	| Minggu-3		|
+|	|			|	method, kelas bisa dikatakan sebagai objek blue print. selain itu nama kelas harus sama dengan nama	|				|
+|	|			|	file .java-nya.																						|				|
+|	|			| - cara pendefinisan kelas :																			|				|
+|	|			|		class nama_kelas { 																				|				|
+|	|			|		} 																								|				|
+|	|	]		| - kelas memiliki hak akses : 																			|				|
+|	|			|		public  <- dapat diakses oleh KELAS MANAPUN.													|				|
+|	|			|		private <- HANYA dapat diakses oleh KELAS itu SENDIRI. 											|				|
+|	|			|		protected <- HANYA dapat diakses oleh KELAS itu SENDIRI dan kelas dalam PACKAGE YANG SAMA 		|				|
+|	|			| - cara penulisan hak akses : 																			|				|
+|	|			|		hak_akses<spasi>class<spasi>nama_kelas {}														|				|
+|	|			| - objek adalah instance dari sebuah kelas, jadi bisa dikatakan kelas adalah blue print dan objek 		|				|
+|	|			|	adalah hasil dari blueprint tersebut.																|				|
+|	|			| - cara membuat sebuah objek dari kelas :																|				|
+|	|			|	nama_kelas nama_objek = new nama_kelas();															|				|
+|	|			| - sedangkan untuk mengakses attribut dan method, dengan cara :										|				|
+|	|			|	nama_objek.attribut;																				|				|
+|	|			|	nama_objek.method();																				|				|
+|	|			| - membahas mengenai macam-macam variabel dan perbedaannya												|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	IV  | Method,Constractor		| - Method adalah sekumpulan baris program / printah" yang akan dieksekusi untuk melakukan suatu task	| Minggu-4		|
+|           | This dan Attribut 		|   Method didefinisikan di dalam kelas																	|				|
+|	|					|   Method ada 2 jenis, yang mengembalikan nilai(return) dan yang tidak (void).							|				|
+|	|					| 	Method bisa memiliki parameter atau tidak dan parameternya bisa lebih dari satu variabel			|				|
+|	|					|   Method juga memiliki hak akses(public, private, protected)											|				|
+|	|					|	cara pendefinisian method : hak_akses<spasi>returnType/void<spasi>nama_method(parameter) {//isi}	|				|
+|	|					|   cara pemanggilan method u/ method non-static harus melalui objek sedangkan method static bisa		|				|
+|	|					|   dipanggil langsung.																					|				|
+|	|					| - Parameter adalah referensi variable/objek yang akan digunakan di dalam method tersebut				|				|
+|	|					| - method overloading adalah kondisi dimana ada 2 atau lebih mathod diizinkan memiliki nama yang sama	|				|
+|	|					|   namun harus memiliki parameter yang berbeda satu samalain.											|				|
+|	|					| - Constractor adalah method yang namanya sama dengan nama kelas, method ini akan aktif otomatis		|				|
+|	|					|   ketika kelas dari method tersebut dibuat objek.														|				|
+|	|					| - this, this adalah keyword dalam java yang digunakan sebagai referensi sebuah objek dari kelas 		|				|
+|	|					|   dimana this tersebut digunakan.																		|				|
+|	|					|   this bisa digunakan pada method, attribut ataupun objek di dalam kelas.								|				|
+|	|					| - Attribut adalah representasi data dari sebuah kelas.												|				|
+|	|					|   cara pengaksesan attribut melalui objek jika non-static 											|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	V   | Inheritance			| - inheritance/ pewarisan adalah salah satu konsep penting dalam OOP, dengan inhertance kita dapat 	| Minggu-5		|
+|	|					|   menurunkan semua attribut dan method (sifat) dari sang kelas induk ke kelas anak tetapi tidak 		|				|
+|	|					|   untuk sebaliknya. Dengan penggunaan inheritance kita bisa mempersingkat kode dan mempercepat proses	|				|
+|	|					|   implementasi.																						|				|
+|	|					|   Method yang diturunkan sang ayah dapat dimodifikasi oleh kelas anak.								|				|
+|	|					| - penggunaan inhertance ditandai dengan keyword "extends", contoh.									|				|
+|	|					|   class induk {}																						|				|
+|	|					|   class anak extends induk {}																			|				|
+|	|					| - keyword super dalam java fungsinya hampir mirip dengan this, hanya saja super digunakan untuk 		|				|
+|	|					|   menandai bahwa mehod atau attribut tersebut adalah milik super class-nya, jadi bisa dikatakan super |				|
+|	|					|   digunakan sebagai penanda attribut dan method antara super class dan sub class.						|				|
+|	|					| - Hubungan antar kelas ada 2, yaitu "is a" dan "has a".												|				|
+|	|					|   "is a" adalah hubungan kelas 1 dengan lainnya(bukan turunannya) sedangkan "has a" adalah turunan 	|				|
+|	|					|   dari kelas lainnya.																					|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	VI  	| Overriding			| - dari hubungan inhertance, subclass memungkinkan untuk memodifikasi atau mengimplements suatu method | Minggu-6		|
+|	|					|   yang diturunkan dari superclass-nya, proses tersebut method Overriding, syarat dari method yang akan|				|
+|	|					|   diOverride tidak boleh final dan Override berarti memodifikasi/mengupdate/menulis ulang dari method |				|
+|	|					|   yang sudah ada di superclass.																		|				|
+|	|					| - aturan Overriding : method hanya bisa di override jika hubungan antar kelasnya "has a" dan hanya 	|				|
+|	|					|   method di subclass yang bisa di override, method tidak boleh final, Overloading berlaku, akses 		|				|
+|	|					|   modifier tidak boleh lebih restrictive(public -> private tidak boleh), tidak boleh methode static	|				|
+|	|					| - untuk konstraktor pada dasarnya tidak bisa di-override tetapi bisa dimodifikasi(hny bsa ditambahkan)|				|
+|	|					|   dengan pemanggialn superclass(super()).																|				|
+|	|					| - untuk menandai method yang di override diatas methode diberi enotation "@Override".					|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	VII	| Polimorfisme			| - polimorfisme adalah kemampuan suatu objek sebuah objek yang dapat memiliki banyak bentuk(kelas)		|		-		|
+|	|					|   polimorfisme terjadi jika sebuah superclass digunakan untuk menjadi referensi objek dari sebuah 	|				|
+|	|					|   subclass.																							|				|
++---------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	VIII	| UTS				|																										|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	IX	| Abstraction			| - Abstraction adalah cara untuk menyembunyikan detil proses yang dilakukan ata hanya fungsionalitas	| Minggu-9      |
+|	|					|   saja yang ditampilkan. 																				|				|
+|	|					| - di Java untuk Abstraction menggunakan keyword abstract pada deklarasi kelas.						|				|
+|	|					| - di dalam kelas Abstratc bisa terdapat method asbtract dan non absract, kelas abstract tidak bisa 	|				|
+|	|					|   dibuat objek harus diturunkan baru turunannya bisa dibuat objek.									|				|
+|	|					| - method abstract adalah method yang tidak memiliki badan, untuk menggunakan method asbtract harus 	|				|
+|	|					|   melalui proses inheritance dahulu																	|				|
+|	|					| - deklarasi class  absract : public absract class Mahasiswa {}										|				|
+|	|					| - deklarasi method absract : public absract void nilaiMahasiswa();									|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	X	| Encapsulation			| - enkapsulasi(pembungkusan) adalah salah satu konsep penting OOP, enkapsulasi adalah mekanisme yang	| Fajar Abdi Nugraha-10115088-EncapIntegration|
+|	|					|   membungkus data dan fungsi dari sebuah kelas menjadi unit. Konsep ini dikenal dg nama data hiding	|				|
+|	|					|   yaitu menyembunyikan attribut dari kelas lain. untuk enkapsulasi semua attribut di set private		|				|
+|	|					| - Data yang di-set private hanya dapat diakses dengan modifikasi melalui method public yang disebut	|				|
+|	|					|   getter dan setter. data yang di engkap bisa di set read-only, write-only ata keduanya.				|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	XI	| Interface			| - interface berisi sekumpulan method abstrac atau method tanpa badan/ kosong.							| Minggu 11 -   |
+|	|					|   interface mirip dengan kelas karena diisi dengan method-mehod namun interface hanya sebuah tipe     | Interface		|
+|	|					|   referensi yang berarti hanya sekumpulan mehod tanpa badan yang nantinya akan di-implementasi di     |				|
+|	|					|   kelas lain sesuai kebutuhan.																		|				|
+|	|					| - ketika suatu kelas meng-implementasi kelas interface maka kelas tersebut meng-inhert semua kelas	|				|
+|	|					|   abstrac dari interface.																				|				|
+|	|					| - deklarasi interface																					|				|
+|	|					|   public interface intClass{																			|				|
+|	|					|		public String getNilai(); }																		|				|
+|	|					| - cara meng-implementasi :																			|				|
+|	|					|   	public class impClass implements intClass {}													|				|
+|	|					| - dengan syarat : bisa meng-implementasi lebih dari 1 kelas, sebuah interface dapat me-extends bbrapa |				|
+|	|					|   interface, sebuah interface tidak bisa meng-implements interface lain.								|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	XII	| Generic Class`		| - generic class adalah kelas yang universal, maksudnya belum ada spesifikasi dari tipe pada data 		| Minggu 12 -   |
+|	|					|   dan fungsi dari kelas tersebut. Pada umunya data dan fungsi pada suatu kelas sudah ditentukan tipeny| Generic       |
+|	|					|   penggunaan generic class adalah untuk fleksibilitas kelas tersebut sehingga tipe nya di umumkan dan | Minggu 12 -   |
+|	|					|   ditentukan ketika objek dibuat dari kelas tersebut.													| Improve       |
+|	|					| - deklarasi generic class di java :																	|				|
+|	|					|   public class genericClass <T> {} // <> sebagai ciri kelas generic									|				|
+|	|					| - Kelas generic bisa memiliki lebih dari satu tipe umum, dengan cara :								|				|
+|	|					|   public class genericClass <T, N> {}																	|				|
+|	|					| - untuk tipe pada generic class sebaiknya huruf besar agar tidak tertukar dengan variabel				|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	XIII	| Generic Method		| - generic method digunakan untuk menyatakan tipe parameter mehod yang tidak berkaitan dengan tipe		| Minggu 13 -   |
+|	|					|   Menyatakan tipe generic untuk parameter mehod, tipe generic dapat disimpulkan dari parameter yang	| Method Generic|
+|	|					|   digunakan.																							|				|
+|	|					| - deklarasi method generic di java.																	|				|
+|	|					|	hak_akses <T> void nama_method(T a){}																|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
+|	XIV	| Package			| - package pada java bisa dikatakan sebagai pemfolderan(maaf kalau saya salah), jadi satu package 		| Minggu 14 - 	|
+|	|					|   adalah satu folder yang isinya beberapa file .java													| Package		|
+|	|					| - package sangat berguana apalagi ketika program yang kita buat sangat besar dan rumit, package 		|				|
+|	|					|   membantu kita meng-organisasi file-file .java sehingga kita bisa dengan mudah mengontrol, mengakses |				|
+|	|					|   dan mencari .java yang kita inginkan, selain itu package adalah solusi ketika anda ingin membuat 	|				|
+|						|   kelas dengan nama yang sama.																		|				|
+|						| - cara mengakses file .java yang berada di luar package cukup import, keyword import harus berada 	|				|
+|	|					|   dibawah keyword package dan di atas keyword class. contoh import :									|				|
+|	|					|   	import java.util.Scanner; // ingin mengakses kelas Scaner										|				|
+|	|					| - jika anda ingin mengimport satu folder bisa menggunakan "*", contoh									|				|
+|	|					| 		import java.util.*; // berarti mengimport semua class di folder java/util						|				|
++-----------+-------------------+-------------------------------------------------------------------------------------------------------+---------------+
